@@ -1,0 +1,42 @@
+/* pattern is downloaded from www.subtlepatterns.com */
+/* Icons from fontello */
+
+@font-face {
+	font-family: sao;
+	src: url(sao.otf);
+}
+
+body {
+	background-color: #fefefe;
+	font-family: Tahoma;
+	color: black;
+	text-align: left;
+	font-size: 11pt;
+	letter-spacing: 1px;
+	line-height: 2;
+	width: 200px;
+	padding: 20px;
+}
+
+.content {
+	height: auto;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button, input {
+	display: inline-block;
+	padding: 5px;
+}
+
+input {
+	max-width: 65%;
+}
+
+h1 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}

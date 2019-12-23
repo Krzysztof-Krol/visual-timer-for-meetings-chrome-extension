@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "content_scripts": [
+        { 
+            "run_at" :"document_end",
+            "matches": ["<all_urls>"],
+            "all_frames": true,
+            "js": ["js/popup.js"]
+        } 
+    ],
+
+    "permissions": [
+        "tabs", "<all_urls>"
+      ],
+
+    "name": "Visual Timer for meetings",
+    "description": "Thanks to the app, be aware of the time when conducting a meeting!",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "img/icon.png",
+        "default_popup": "popup.html"
+    }
+}
