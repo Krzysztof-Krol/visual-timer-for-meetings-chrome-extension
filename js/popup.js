@@ -76,6 +76,3 @@ function injection(){
 // Run countdown bar
 var start = document.getElementsByTagName("button")[0];
 start.addEventListener("click", injection);
-
-
-// <button onClick="injection" style="border: 0; padding: 5px 10px; box-shadow: 0 2px 4px darkgray; background: gray; color: white;">Start again</button>
